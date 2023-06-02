@@ -14,6 +14,7 @@ body {
   padding: 5px;
   border: 1px solid #000;
   border-radius: 10px;
+  background-color: darkgrey;
 }
 .header {
   text-align: center;
@@ -24,5 +25,36 @@ body {
   margin-right: 15px;
   float: left;
 }
-.about-me {padding-left: 20px;}
-.one {border-bottom: solid 2px #000;}
+.about-me {
+  padding-left: 20px;
+}
+.boutme {
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin-left: 250px;
+}
+.one {
+  border-bottom: solid 2px #000;
+}
+.two {
+  border-bottom: solid 2px #000;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-content: space-evenly;
+}
+.grid-item1 {
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin: 10px;
+  text-align: center;
+}
+.grid-item2 {
+  border-radius: 10px;
+  background-color: darkgrey;
+  margin: 10px;
+  text-align: center;
+}
+.prog {text-decoration: underline 2px;}
+.lang {text-decoration: underline 2px;}
