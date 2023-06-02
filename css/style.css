@@ -1,1 +1,28 @@
-body{background-color: cadetblue;}
+body {
+  background-color: cadetblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.flex-container {
+  padding: 5px;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flex-item {
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.header {
+  text-align: center;
+  justify-content: center;
+}
+.my-pic {
+  margin-top: 10px;
+  margin-right: 15px;
+  float: left;
+}
+.about-me {padding-left: 20px;}
+.one {border-bottom: solid 2px #000;}
