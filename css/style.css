@@ -35,9 +35,11 @@ body {
 }
 .one {
   border-bottom: solid 2px #000;
+  text-align: center;
 }
 .two {
   border-bottom: solid 2px #000;
+  text-align: center;
 }
 .grid-container {
   display: grid;
@@ -56,5 +58,19 @@ body {
   margin: 10px;
   text-align: center;
 }
-.prog {text-decoration: underline 2px;}
-.lang {text-decoration: underline 2px;}
+.prog {
+  text-decoration: underline 2px;
+}
+.lang {
+  text-decoration: underline 2px;
+}
+.proj {
+  border-bottom: solid 2px #000;
+  text-align: center;
+}
+.prodesc {
+  width: 300px; justify-content: center;
+}
+.context {border-bottom: solid 2px #000; text-align: center;}
+.contact-me {border-bottom: solid 2px #000;}
+.bottomtext {text-align: center;}
